@@ -99,3 +99,16 @@ The 8 x 8 memory was inferred as distributed RAM. Timing and power numbers are n
 - `rd_data` has one cycle of read latency (registered output).
 - Do not drive `wr_en` / `rd_en` during reset, and wait a few clocks after release before starting traffic.
 - No `almost_full` / `almost_empty` flags and no assertions (SVA) yet; both are possible future work.
+
+
+### Resource Utilization Screenshot
+![Resource Utilization](images/utilization.png)
+
+## Simulation Waveforms
+
+### Vivado XSim Waveform
+![Vivado Waveform](images/waveform_vivado.png)
+
+### Questa Waveform
+![Questa Waveform](images/waveform_questa.png)
+
